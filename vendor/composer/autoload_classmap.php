@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
-    'App\\CovidSessionitem' => $baseDir . '/app/CovidSessionitem.php',
     'App\\Events\\Event' => $baseDir . '/app/Events/Event.php',
     'App\\Events\\ExampleEvent' => $baseDir . '/app/Events/ExampleEvent.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
@@ -20,10 +19,13 @@ return array(
     'App\\Jobs\\ExampleJob' => $baseDir . '/app/Jobs/ExampleJob.php',
     'App\\Jobs\\Job' => $baseDir . '/app/Jobs/Job.php',
     'App\\Listeners\\ExampleListener' => $baseDir . '/app/Listeners/ExampleListener.php',
+    'App\\LocalGovernment' => $baseDir . '/app/LocalGovernment.php',
+    'App\\Model\\CovidSessionitem' => $baseDir . '/app/Model/CovidSessionitem.php',
+    'App\\Model\\Symptom' => $baseDir . '/app/Model/Symptom.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
-    'App\\Symptom' => $baseDir . '/app/Symptom.php',
+    'App\\State' => $baseDir . '/app/State.php',
     'App\\User' => $baseDir . '/app/User.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonImmutable' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',

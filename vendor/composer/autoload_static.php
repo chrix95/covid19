@@ -501,7 +501,6 @@ class ComposerStaticInit302eb2d608d836b90fa8172c0bce2c99
 
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
-        'App\\CovidSessionitem' => __DIR__ . '/../..' . '/app/CovidSessionitem.php',
         'App\\Events\\Event' => __DIR__ . '/../..' . '/app/Events/Event.php',
         'App\\Events\\ExampleEvent' => __DIR__ . '/../..' . '/app/Events/ExampleEvent.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
@@ -514,10 +513,13 @@ class ComposerStaticInit302eb2d608d836b90fa8172c0bce2c99
         'App\\Jobs\\ExampleJob' => __DIR__ . '/../..' . '/app/Jobs/ExampleJob.php',
         'App\\Jobs\\Job' => __DIR__ . '/../..' . '/app/Jobs/Job.php',
         'App\\Listeners\\ExampleListener' => __DIR__ . '/../..' . '/app/Listeners/ExampleListener.php',
+        'App\\LocalGovernment' => __DIR__ . '/../..' . '/app/LocalGovernment.php',
+        'App\\Model\\CovidSessionitem' => __DIR__ . '/../..' . '/app/Model/CovidSessionitem.php',
+        'App\\Model\\Symptom' => __DIR__ . '/../..' . '/app/Model/Symptom.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
-        'App\\Symptom' => __DIR__ . '/../..' . '/app/Symptom.php',
+        'App\\State' => __DIR__ . '/../..' . '/app/State.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonImmutable.php',
